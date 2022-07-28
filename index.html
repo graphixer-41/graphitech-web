@@ -11,79 +11,91 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <!-- font awsome  -->
     <script src="https://kit.fontawesome.com/ce81d1d063.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="container">
+      <section>
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
-              <a class="navbar-brand text-white" href="#">GraphicTech</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-auto gap-5" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Couses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white">Success</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white">Feedback</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white">About</a>
-                  </li>
-                </ul>
-                  <button class="btn btn-outline-warning text-white" type="submit">Register</button>
-              </div>
+                 <h2 class="text-white">GRAPHICTECH</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#explore">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#join">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#successfull">Join</a>
+                        </li>
+                         
+                    </ul>
+                    <a class="btn btn-light text-black" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+                </div>
             </div>
-          </nav>
+        </nav>
+    </section>
     </header>
-    <main class="container">
+    <section class="container">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
           </div>
-          <div class="carousel-item">
-            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-
-            </div>
+          <div class="carousel-inner">
+              <div class="carousel-item">
+                  <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h1 class="fw-bold">Learn without limits</h1>
+                      <h5>Start, switch, or advance your career with more than 5,000 courses, Professional
+                          Certificates, and degrees from world-class universities and companies.</h5>
+                      <button type="button" class="btn btn-info btn-lg text-white">Large button</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h1 class="fw-bold">Courses You Can Complete in a Day</h1>
+                      <h5>Start, switch, or advance your career with more than 5,000 courses, Professional
+                          Certificates, and degrees from world-class universities and companies.</h5>
+                      <button type="button" class="btn btn-info btn-lg text-white">Large button</button>
+                  </div>
+              </div>
+              <div class="carousel-item active">
+                  <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h1 class="fw-bold">Start Learning with Free Courses</h1>
+                      <h5>Start, switch, or advance your career with more than 5,000 courses, Professional
+                          Certificates, and degrees from world-class universities and companies.</h5>
+                      <button type="button" class="btn btn-info btn-lg text-white">Large button</button>
+                  </div>
+              </div>
           </div>
-          <div class="carousel-item">
-            <img src="images/cover/cover-1.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
       </div>
-    </main>
+  </section>
     <section class="container my-5">
       <div class="text-center my-5">
         <h1 class="text-primary">Discover Our Popular Courses</h1>
@@ -200,48 +212,56 @@
       </div>
     </section>
     
-      <div class="container px-4">
-        <div class="row gx-0">
-          <div class="col">
-            <img src="images/working.png" alt="">
-          </div>
-          <div class="col">
-             <h1 class="text-primary">Explore The eLearning Institute</h1>
-             <p>There are many variations of passages of Lorem Ipsum available, but the 
-              majority have suffered alteration in some form, by injected humour, or 
-              randomised words which don't look even slightly believable. If you are going 
-              to use a passage of Lorem Ipsum, you need to be sure.</p>
-              <p class="py-2">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum 
-                generators on the Internet tend to repeat predefined.</p>
-                <div class="container">
-                  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                    <div class="col">
-                      <div class="">
-                        <h2>3.2K+</h2>
-                        <p>Online Course</p>
+    <section id="explore">
+      <div class="container overflow-hidden">
+          <div class="row gx-5">
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                          <div class="col-lg-5">
+                              <img src="images/working.png" class="img-fluid rounded-start w-100" alt="...">
+                          </div>
+                          <div class="col-lg-7 d-flex justify-content-center justify-item-center flex-column px-5 bg-info">
+                              <div>
+                                  <h2 class="card-title display-5 fw-bold pt-4 text-white">Explore The eLearning Institute</h2>
+                                  <p class="card-text text-white">There are many variations of passages of Lorem Ipsum
+                                      available, but the majority have suffered alteration in some form, by
+                                      injected humour, or randomised words which don't look even slightly
+                                      believable. If you are going to use a passage of Lorem Ipsum, you need to
+                                  </p>
+                                  <div class="container overflow-hidden">
+                                      <div class="row gx-5">
+                                          <div class="col">
+                                              <div class="p-1">
+                                                  <h2 class="fw-bold text-white">3.5k+</h2>
+                                                  <h5 class="text-white">Online Course</h5>
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div class="p-1">
+                                                  <h2 class="fw-bold text-white">600+</h2>
+                                                  <h5 class="text-white">Expert member</h5>
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div class="p-1">
+                                                  <h2 class="fw-bold text-white">1k+</h2>
+                                                  <h5 class="text-white">Rating</h5>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <button type="button" class="btn btn-light btn-lg text-black mt-3 mb-5">Read More</button>
+                              </div>
+                          </div>
                       </div>
-                    </div>
-                    <div class="col">
-                      <div class="">
-                         <h2>600+</h2>
-                         <p>Online Course</p>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="">
-                        <h2>1k+</h2>
-                        <p>Ratings</p>
-                      </div>
-                    </div>
-                    </div>
                   </div>
-                  <button type="button" class="btn btn-primary">Read More</button>
-                </div>
+              </div>
           </div>
-        </div>
-    </section>
+      </div>
+  </section>
     
-    <section id="join">
+    <section>
       <div class="container bg-primary rounded-3 mt-5 shadow p-3 mb-5 rounded">
           <div class="row g-2">
               <div class="col-lg-6 my-auto">
@@ -254,14 +274,46 @@
                   </div>
               </div>
               <div class="col-lg-6 my-auto text-center">
-                  <div>
-                      <a type="button" class="btn btn-info text-white btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                          Register Now
-                      </a>
-                  </div>
+                <div>
+                  <a type="button" class="btn btn-info text-white btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      Join Now
+                  </a>
+              </div>
               </div>
           </div>
       </div>
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center">Sign up</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputtext" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your full name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create password">
+                            <div id="emailHelp" class="form-text"> Between 8 and 72 characters
+                            </div>
+                        </div>
+                        <a href="http://" class="btn btn-primary w-100">Join</a>
+                    </form>
+                    <br>
+                    <p class="text-center">Already on GraphiTech? <a href="#">Log in</a></p>
+                     
+                </div>
+            </div>
+        </div>
+    </div>
       <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
               <div class="modal-content">
@@ -278,8 +330,7 @@
 
     <section class="container my-5">
       <div>
-        <h1 class="text-primary">Meet Our Succesfull</h1>
-        <h1 class="text-primary">Students</h1>
+        <h1 class="text-primary">Meet Our Succesfull Students</h1>
         <p>It is a long established fact that a reader will be distracted by the <br>
           readable content of a page when looking at its layout.</p>
       </div>
@@ -327,44 +378,6 @@
         <button type="button" class="btn btn-primary my-5">View All</button>
       </div>
     </section>
-    <section>
-      <div class="text-center">
-        <h1>Some Student Feedback</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable <br>
-          content of a page when looking at its layout</p>
-      </div>
-      <div class="container px-4 text-center">
-        <div class="row gx-5">
-          <div class="col">
-            <div class="container px-4 text-center">
-              <div class="row gx-5">
-                <div class="col">
-                  <img src="images/comma.png" alt="">
-                </div>
-                <div class="col">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <img src="images/comma.png" alt="">
-          </div>
-          <div class="col">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-    
     <section class="container my-5">
       <div class="text-center">
         <h1 class="text-primary">Freequently Asked Question</h1>
@@ -422,7 +435,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="d-none d-xl-block">
       <div class="text-center">
         <h1  class="text-primary">Trusted by over 800+ companies</h1>
       </div>
